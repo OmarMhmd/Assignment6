@@ -1,34 +1,40 @@
-body{
-   
-}
-label{
-    font-size: 18px;
-}
-span{
-    font-size: 11px;
 
+.container
+{
+    width: 70%;
+    background-color: #ccc;
+    margin: 0 auto;
+}
+nav{
+background-color: #3AA9E8;
+border-radius: 10px;
+height: 80px;
+font-size: 18px;
+}
+nav #first{
+    width: 35%;
+    display: inline-block;
+    background-color: #ccc;
 
 }
-input[type="text"],input[type="password"]
-{
-    width: 400px;
-    height: 30px;
-    border-radius: 6px;
-    border-color: #DDD;
-    margin-top: 10px;;
+nav #second{
+    width: 10%;
+    display: inline-block;
+    background-color: aqua;
+
 }
-#checkbox
+nav #third
 {
-    margin-top: 10px;
+    width:20%;
+    display: inline-block;
+    background-color:#ccc
+
 }
-#submit
+nav #fourth
 {
-    margin-top: 15px;
-    background-color:#007BFF;
-    border:none;
-    color: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 22px;
-    font-family:'Times New Roman', Times, serif
+    width: 33%;
+    display: inline-block;
+    background-color: blueviolet;
+    text-align: right;
+
 }

@@ -1,0 +1,34 @@
+body{
+   
+}
+label{
+    font-size: 18px;
+}
+span{
+    font-size: 11px;
+
+
+}
+input[type="text"],input[type="password"]
+{
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #DDD;
+    margin-top: 10px;;
+}
+#checkbox
+{
+    margin-top: 10px;
+}
+#submit
+{
+    margin-top: 15px;
+    background-color:#007BFF;
+    border:none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif
+}
